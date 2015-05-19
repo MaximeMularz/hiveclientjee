@@ -105,7 +105,7 @@ public final class HiveBasicClientServlet extends HttpServlet {
      */
     public void demo(PrintWriter writer) {
         con = getConnection("130.206.80.46", "10000", "guillaume.jourdain",
-                "Iameno02");
+                "**********");
 
         if (null != con)
             doQuery(writer);
